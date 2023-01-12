@@ -7,25 +7,34 @@ body {
 }
 
 /* The section below styles the header (logo and menu) */
-header {
+header #navigation {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  padding: 12px 20px;
+  padding: 12px 20px
 }
 
-header #logo,
-header #menu {
+header #navigation #logo,
+header #navigation #menu {
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
+  text-decoration: none;
+  color: #28352f;
+}
+header #navigation #menu {
+  margin-right: 60px;
 }
 
 /* The section below styles the headline section */
 main .headline-section {
   background-image: url('img/header-illsutration-mobile@2x.png');
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -33,6 +42,7 @@ main .headline-section {
   justify-content: center;
   align-items: center;
   padding: 24px;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -55,6 +65,13 @@ main .headline-section p {
   font-weight: 400px;
   line-height: 28px;
   color: #172b4d;
+}
+
+main .headline-section .social-media {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 10px;
 }
 
 main .headline-section .social-media i {
