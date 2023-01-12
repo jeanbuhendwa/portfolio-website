@@ -104,7 +104,7 @@ main .button-section {
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   letter-spacing: 0.03em;
   padding: 12px;
 }
@@ -198,6 +198,17 @@ main .work-section .project-container .work .project-info h2 {
   text-align: center;
 }
 
+.skills-section .skill-box ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 8px 12px;
+  margin: 0;
+}
+
 main .work-section .project-container .work .project-info ul {
   list-style: none;
   display: flex;
@@ -206,6 +217,17 @@ main .work-section .project-container .work .project-info ul {
   gap: 10px;
   padding: 8px 12px;
   margin: 0;
+}
+
+.skills-section .skill-box ul li {
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  padding: 8px 12px;
 }
 
 main .work-section .project-container .work .project-info ul li {
@@ -273,26 +295,4 @@ main .work-section .project-container .work .project-info button:hover {
 .skills-section .skill-box img {
   width: 80px;
   height: 80px;
-}
-
-.skills-section .skill-box ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 8px 12px;
-  margin: 0;
-}
-
-.skills-section .skill-box ul li {
-  background-color: #fff;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #36b37e;
-  padding: 8px 12px;
 }
