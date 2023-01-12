@@ -1,21 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap');
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 /* The section below styles the header (logo and menu) */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 12px 20px;
+
 }
 header #logo,
 header #menu {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
 }
+
+/* The section below styles the headline section */
+main .headline-section {
+  background-image: url('img/header-illsutration-mobile@2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  text-align: center;
+}
+main .headline-section h1{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+main .headline-section h1 span{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #36b37e;
+}
+main .headline-section p{
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 28px;
+  color: #172b4d;
+}
+main .headline-section .social-media i{
+  color:#505F79;
+  font-size: 24px;
+  margin: 15px 8px;
+}
+
