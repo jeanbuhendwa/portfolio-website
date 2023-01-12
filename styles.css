@@ -13,9 +13,9 @@ header {
   align-items: center;
   background-color: white;
   padding: 12px 20px;
-
 }
-header #logo,
+
+header #logo, 
 header #menu {
   font-size: 24px;
   font-weight: 600;
@@ -35,27 +35,30 @@ main .headline-section {
   padding: 24px;
   text-align: center;
 }
-main .headline-section h1{
+
+main .headline-section h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
 }
-main .headline-section h1 span{
+
+main .headline-section h1 span {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   color: #36b37e;
 }
-main .headline-section p{
+
+main .headline-section p {
   font-size: 20px;
   font-weight: 400px;
   line-height: 28px;
   color: #172b4d;
 }
-main .headline-section .social-media i{
-  color:#505F79;
+
+main .headline-section .social-media i {
+  color: #505f79;
   font-size: 24px;
   margin: 15px 8px;
 }
-
