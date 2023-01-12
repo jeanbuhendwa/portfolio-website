@@ -61,6 +61,15 @@ main .headline-section h1 span {
   color: #36b37e;
 }
 
+.about-section p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 0;
+}
+
 main .headline-section p {
   font-size: 20px;
   font-weight: 400px;
@@ -86,6 +95,18 @@ main .button-section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-section button {
+  background-color: #36b37f;
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  padding: 12px;
 }
 
 main .button-section button {
@@ -152,6 +173,22 @@ main .work-section .project-container .work .project-info {
   padding: 16px;
 }
 
+.about-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 0;
+}
+
+.skills-section .skill-box h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
 main .work-section .project-container .work .project-info h2 {
   font-size: 24px;
   font-weight: 600;
@@ -170,16 +207,6 @@ main .work-section .project-container .work .project-info ul {
   padding: 8px 12px;
   margin: 0;
 }
-
-/* main .work-section .project-container .work .project-info ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
-  margin: 0;
-} */
 
 main .work-section .project-container .work .project-info ul li {
   background-color: #ebf0ee;
@@ -224,36 +251,6 @@ main .work-section .project-container .work .project-info button:hover {
   margin: 20px 0;
 }
 
-.about-section h2 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  margin: 0;
-}
-
-.about-section p {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: center;
-  color: #42526e;
-  margin: 0;
-}
-
-.about-section button {
-  background-color: #36b37f;
-  border: none;
-  border-radius: 4px;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #ffffff;
-  letter-spacing: 0.03em;
-  padding: 12px;
-}
-
 .skills-section {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -278,13 +275,6 @@ main .work-section .project-container .work .project-info button:hover {
   height: 80px;
 }
 
-.skills-section .skill-box h2 {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  color: #344563;
-}
-
 .skills-section .skill-box ul {
   list-style: none;
   display: flex;
@@ -297,7 +287,7 @@ main .work-section .project-container .work .project-info button:hover {
 }
 
 .skills-section .skill-box ul li {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 8px;
   font-weight: 600;
   font-size: 12px;
