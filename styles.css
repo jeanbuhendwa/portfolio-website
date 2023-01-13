@@ -110,17 +110,6 @@ main .button-section {
   transition: all 0.3s ease-in-out;
 }
 
-.about-section button:hover {
-  background-color: #36b37f;
-  cursor: pointer;
-}
-
-.about-section button:active {
-  background-color: #008552;
-  cursor: pointer;
-  transition: 0s;
-}
-
 main .button-section button {
   font-size: 30px;
   color: #acb7c3;
@@ -132,6 +121,17 @@ main .button-section button {
   padding: 8px;
   margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.about-section button:hover {
+  background-color: #36b37f;
+  cursor: pointer;
+}
+
+.about-section button:active {
+  background-color: #008552;
+  cursor: pointer;
+  transition: 0s;
 }
 
 main .button-section button:hover {
