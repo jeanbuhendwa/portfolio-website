@@ -124,7 +124,7 @@ main .button-section button {
 }
 
 .about-section button:hover {
-  background-color: #36b37f;
+  background-color: #6cdeae;
   cursor: pointer;
 }
 
@@ -261,7 +261,7 @@ main .work-section .project-container .work .project-info button {
   background-color: #36b37f;
   border: none;
   border-radius: 4px;
-  padding: 12px;
+  padding: 8px 10px;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -272,7 +272,7 @@ main .work-section .project-container .work .project-info button {
 }
 
 main .work-section .project-container .work .project-info button:hover {
-  background-color: #36b37f;
+  background-color: #6cdeae;
   cursor: pointer;
 }
 
