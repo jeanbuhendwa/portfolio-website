@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 
 body {
   padding: 0;
@@ -61,6 +61,15 @@ main .headline-section h1 span {
   color: #36b37e;
 }
 
+.about-section p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 0;
+}
+
 main .headline-section p {
   font-size: 20px;
   font-weight: 400px;
@@ -79,4 +88,233 @@ main .headline-section .social-media i {
   color: #505f79;
   font-size: 24px;
   margin: 15px 8px;
+}
+
+/* Scroll to the next section button */
+main .button-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section button {
+  background-color: #36b37f;
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+main .button-section button {
+  font-size: 30px;
+  color: #acb7c3;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-section button:hover {
+  background-color: #6cdeae;
+  cursor: pointer;
+}
+
+.about-section button:active {
+  background-color: #008552;
+  cursor: pointer;
+  transition: 0s;
+}
+
+main .button-section button:hover {
+  cursor: pointer;
+}
+
+main .button-section button:active {
+  color: #fff;
+  background-color: #0a2759;
+  cursor: pointer;
+}
+
+/* The section below styles the project work section using css grid and flexbox */
+main .work-section h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  padding: 0 25px;
+  margin: 25px 0;
+}
+
+main .work-section #hr-line {
+  margin: auto;
+  width: 48px;
+  height: 4px;
+  margin-bottom: 20px;
+  background-color: #36b37e;
+}
+
+main .work-section .project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 10px;
+}
+
+main .work-section .project-container .work {
+  padding: 0;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  margin: 10px;
+}
+
+main .work-section .project-container .work .project-info {
+  margin-top: 250px;
+  border: none;
+  border-radius: 10px 10px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.about-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 0;
+}
+
+.skills-section .skill-box h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+main .work-section .project-container .work .project-info h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #3a4a42;
+  margin: 0;
+  text-align: center;
+}
+
+.skills-section .skill-box ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 8px 12px;
+  margin: 0;
+}
+
+main .work-section .project-container .work .project-info ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  margin: 0;
+}
+
+.skills-section .skill-box ul li {
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  padding: 8px 12px;
+}
+
+main .work-section .project-container .work .project-info ul li {
+  background-color: #ebf0ee;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  padding: 8px 12px;
+}
+
+main .work-section .project-container .work .project-info button {
+  background-color: #36b37f;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+main .work-section .project-container .work .project-info button:hover {
+  background-color: #6cdeae;
+  cursor: pointer;
+}
+
+main .work-section .project-container .work .project-info button:active {
+  background-color: #008552;
+  cursor: pointer;
+  transition: 0s;
+}
+
+/* The block below styles the about me section and the skills */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 5px 12px;
+  background-image: url('img/illustration\ 1-\ about\ me-mobile.png'), url('img/illustration\ 2-about\ me\ mobile.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+  margin: 20px 0;
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 10px;
+}
+
+.skills-section .skill-box {
+  background-color: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.skills-section .skill-box img {
+  width: 80px;
+  height: 80px;
 }
