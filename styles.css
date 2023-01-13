@@ -107,6 +107,18 @@ main .button-section {
   color: #fff;
   letter-spacing: 0.03em;
   padding: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-section button:hover {
+  background-color: #36b37f;
+  cursor: pointer;
+}
+
+.about-section button:active {
+  background-color: #008552;
+  cursor: pointer;
+  transition: 0s;
 }
 
 main .button-section button {
@@ -118,13 +130,17 @@ main .button-section button {
   width: 50px;
   height: 50px;
   padding: 8px;
+  margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
 }
 
 main .button-section button:hover {
+  cursor: pointer;
+}
+
+main .button-section button:active {
   color: #fff;
-  background-color: #1e488f;
-  margin-bottom: 20px;
+  background-color: #0a2759;
   cursor: pointer;
 }
 
@@ -256,8 +272,14 @@ main .work-section .project-container .work .project-info button {
 }
 
 main .work-section .project-container .work .project-info button:hover {
+  background-color: #36b37f;
+  cursor: pointer;
+}
+
+main .work-section .project-container .work .project-info button:active {
   background-color: #008552;
   cursor: pointer;
+  transition: 0s;
 }
 
 /* The block below styles the about me section and the skills */
