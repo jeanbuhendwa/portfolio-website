@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
 
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* The section below styles the header (logo and menu) */
@@ -34,7 +34,7 @@ header #navigation #menu {
 
 /* The section below styles the headline section */
 main .headline-section {
-  background-image: url('img/header-illsutration-mobile@2x.png');
+  background-image: url("img/header-illsutration-mobile@2x.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -257,6 +257,20 @@ main .work-section .project-container .work .project-info ul li {
   padding: 8px 12px;
 }
 
+main .contact-section .contact .contact-form button {
+  background-color: #36b37f;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
 main .work-section .project-container .work .project-info button {
   background-color: #36b37f;
   border: none;
@@ -269,6 +283,17 @@ main .work-section .project-container .work .project-info button {
   color: #fff;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
+}
+
+main .contact-section .contact .contact-form button:hover {
+  background-color: #6cdeae;
+  cursor: pointer;
+}
+
+main .contact-section .contact .contact-form button:active {
+  background-color: #008552;
+  cursor: pointer;
+  transition: 0s;
 }
 
 main .work-section .project-container .work .project-info button:hover {
@@ -289,7 +314,9 @@ main .work-section .project-container .work .project-info button:active {
   align-items: center;
   gap: 25px;
   padding: 5px 12px;
-  background-image: url('img/illustration\ 1-\ about\ me-mobile.png'), url('img/illustration\ 2-about\ me\ mobile.png');
+  background-image:
+    url("img/illustration\ 1-\ about\ me-mobile.png"),
+    url("img/illustration\ 2-about\ me\ mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom left;
   margin: 20px 0;
@@ -317,4 +344,91 @@ main .work-section .project-container .work .project-info button:active {
 .skills-section .skill-box img {
   width: 80px;
   height: 80px;
+}
+
+main .contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+main .contact-section .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .contact-section .contact .text-contact h3 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+  text-align: center;
+}
+
+main .contact-section .contact .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main .contact-section .contact .contact-form input,
+main .contact-section .contact .contact-form textarea {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding: 10px 12px;
+  width: 330px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6b778c;
+}
+
+main .contact-section .contact .contact-form input {
+  height: 48px;
+}
+
+main .contact-section .contact .contact-form input:focus {
+  color: black;
+  outline: 2px solid #60c095;
+}
+
+main .contact-section .contact .contact-form textarea:focus {
+  color: black;
+  outline: 2px solid #60c095;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-social .social-media {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+}
+
+footer .footer-social .social-media i {
+  color: #505f79;
+  font-size: 24px;
+  margin: 15px 8px;
+}
+
+footer .email-footer h3 a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #42526e;
 }
