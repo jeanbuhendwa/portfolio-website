@@ -314,7 +314,8 @@ main .work-section .project-container .work .project-info button:active {
   align-items: center;
   gap: 25px;
   padding: 5px 12px;
-  background-image: url("img/illustration\ 1-\ about\ me-mobile.png"),
+  background-image:
+    url("img/illustration\ 1-\ about\ me-mobile.png"),
     url("img/illustration\ 2-about\ me\ mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom left;
