@@ -290,15 +290,15 @@ main .contact-section .contact .contact-form button:hover {
   cursor: pointer;
 }
 
-main .work-section .project-container .work .project-info button:hover {
-  background-color: #6cdeae;
-  cursor: pointer;
-}
-
 main .contact-section .contact .contact-form button:active {
   background-color: #008552;
   cursor: pointer;
   transition: 0s;
+}
+
+main .work-section .project-container .work .project-info button:hover {
+  background-color: #6cdeae;
+  cursor: pointer;
 }
 
 main .work-section .project-container .work .project-info button:active {
@@ -314,9 +314,9 @@ main .work-section .project-container .work .project-info button:active {
   align-items: center;
   gap: 25px;
   padding: 5px 12px;
-  background-image: 
-  url("img/illustration\ 1-\ about\ me-mobile.png"),
-  url("img/illustration\ 2-about\ me\ mobile.png");
+  background-image:
+    url("img/illustration\ 1-\ about\ me-mobile.png"),
+    url("img/illustration\ 2-about\ me\ mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom left;
   margin: 20px 0;
