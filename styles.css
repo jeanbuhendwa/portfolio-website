@@ -261,7 +261,7 @@ main .contact-section .contact .contact-form button {
   background-color: #36b37f;
   border: none;
   border-radius: 4px;
-  padding: 8px 10px;
+  padding: 12px;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -376,19 +376,33 @@ main .contact-section .contact .contact-form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 main .contact-section .contact .contact-form input,
 main .contact-section .contact .contact-form textarea {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-  padding: 5px 10px;
+  padding: 10px 12px;
   width: 330px;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
   color: #6b778c;
+}
+
+main .contact-section .contact .contact-form input {
+  height: 48px;
+}
+
+main .contact-section .contact .contact-form input:focus {
+  color: black;
+  outline: 2px solid #60C095;
+}
+
+main .contact-section .contact .contact-form textarea:focus {
+  color: black;
+  outline: 2px solid #60C095;
 }
 
 footer {
