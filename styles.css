@@ -318,7 +318,8 @@ main .work-section .project-container .work .project-info button:active {
   align-items: center;
   gap: 25px;
   padding: 5px 12px;
-  background-image: url("img/illustration\ 1-\ about\ me-mobile.png"),
+  background-image:
+    url("img/illustration\ 1-\ about\ me-mobile.png"),
     url("img/illustration\ 2-about\ me\ mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom left;
@@ -560,7 +561,9 @@ footer .email-footer h3 a {
   /* The block below styles the about me section and the skills */
   .about-section {
     padding: 10px 20%;
-    background-image: url("img/About-bg-2.png"), url("img/about-bg-1.png");
+    background-image:
+      url("img/About-bg-2.png"),
+      url("img/about-bg-1.png");
     background-repeat: no-repeat, no-repeat;
     background-position: top right, bottom left;
     background-size: 200px 100px;
@@ -590,10 +593,14 @@ footer .email-footer h3 a {
   main .contact-section {
     padding: 150px 100px;
     margin: 0;
-    background-image: url('img/contact-bg-1.png'), url('img/contact-bg-2.png'), url('img/contact-bg-3.png');
+    background-image:
+      url("img/contact-bg-1.png"),
+      url("img/contact-bg-2.png"),
+      url("img/contact-bg-3.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom right, 25% 85%, bottom left;
     background-size: 200px 400px, 130px 100px, 200px 260px;
+    border-bottom: 2px solid #dfe1e6;
   }
 
   main .contact-section .contact {
@@ -639,5 +646,9 @@ footer .email-footer h3 a {
 
   main .contact-section .contact .contact-form button {
     margin-left: -77%;
+  }
+
+  footer .email-footer {
+    display: none;
   }
 }
