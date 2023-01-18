@@ -441,7 +441,7 @@ footer .email-footer h3 a {
   color: #42526e;
 }
 
-/*The block below is for desktop version*/
+/* The block below is for desktop version */
 @media screen and (min-width: 768px) {
   /* The section below styles the header (logo and menu) */
   header #navigation {
@@ -634,7 +634,7 @@ footer .email-footer h3 a {
   main .contact-section .contact .contact-form input {
     height: 20px;
   }
-  
+
   main .contact-section .contact .contact-form .names input {
     width: 250px;
   }
