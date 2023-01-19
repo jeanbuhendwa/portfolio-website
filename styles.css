@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
 
 body {
   padding: 0;
@@ -30,6 +30,10 @@ header #navigation #menu {
 
 header #navigation #menu {
   margin-right: 60px;
+}
+
+header #navigation #nav-list {
+  display: none;
 }
 
 /* The section below styles the headline section */
@@ -91,7 +95,7 @@ main .headline-section .social-media i {
 }
 
 /* Scroll to the next section button */
-main .button-section {
+.button-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,10 +116,10 @@ main .button-section {
 
 main .button-section button {
   font-size: 30px;
-  color: #acb7c3;
+  color: #9aa4af;
   border-radius: 100%;
   background-color: #fff;
-  border: 1px solid #dfe1e6;
+  border: 1px solid #bfc2c7;
   width: 50px;
   height: 50px;
   padding: 8px;
@@ -431,4 +435,203 @@ footer .email-footer h3 a {
   line-height: 30px;
   font-weight: 400;
   color: #42526e;
+}
+
+/* The block below is for desktop version */
+@media screen and (min-width: 768px) {
+  /* The section below styles the header (logo and menu) */
+  header #navigation {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: center;
+    padding: 0;
+  }
+
+  header #navigation #logo,
+  header #navigation #menu {
+    display: none;
+  }
+
+  header #navigation #nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 70px;
+    gap: 20px;
+  }
+
+  header #navigation #nav-list li a {
+    text-decoration: none;
+    color: #28352f;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  /* The section below styles the headline section */
+  main .headline-section {
+    background-image: url("img/desktop-bg.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20%;
+    margin-top: -80px;
+  }
+
+  main .headline-section h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #172b4d;
+  }
+
+  main .headline-section h1 span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #36b37e;
+  }
+
+  main .headline-section p {
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 32px;
+    color: #172b4d;
+  }
+
+  main .headline-section .social-media i {
+    color: #172b4d;
+    font-size: 28px;
+    margin: 15px 8px;
+  }
+
+  /* Scroll to the next section button */
+  main .button-section button {
+    font-size: 30px;
+    color: #6f7780;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 1px solid #6f7780;
+  }
+
+  /* The section below styles the project work section using css grid and flexbox */
+  main .work-section h1 {
+    font-size: 40px;
+  }
+
+  main .work-section #hr-line {
+    display: none;
+  }
+
+  main .work-section .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    margin: 0 100px;
+  }
+
+  main .work-section .project-container .work {
+    padding: 0;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    margin: 0;
+  }
+
+  main .work-section .project-container .work .project-info ul {
+    gap: 5px;
+    padding: 8px;
+    margin: 0;
+  }
+
+  main .work-section .project-container .work .project-info ul li {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  /* The block below styles the about me section and the skills */
+  .about-section {
+    padding: 10px 20%;
+    background-image:
+      url('img/about-bg-2.png'),
+      url('img/about-bg-left.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, bottom left;
+    background-size: 200px 150px, 200px 100px;
+    margin: 20px 0;
+  }
+
+  .skills-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 15px;
+    margin: 0 100px;
+  }
+
+  .skills-section .skill-box {
+    background-color: #ebf0ee;
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  main .contact-section {
+    padding: 150px 100px;
+    margin: 0;
+    background-image:
+      url("img/contact-bg-1.png"),
+      url("img/contact-bg-2.png"),
+      url("img/contact-bg-3.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, 25% 85%, bottom left;
+    background-size: 200px 400px, 130px 100px, 200px 260px;
+    border-bottom: 2px solid #dfe1e6;
+  }
+
+  main .contact-section .contact {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-gap: 20px;
+  }
+
+  main .contact-section .contact .text-contact h3 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  main .contact-section .contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  main .contact-section .contact .contact-form input {
+    height: 20px;
+  }
+
+  main .contact-section .contact .contact-form input,
+  main .contact-section .contact .contact-form #textarea {
+    width: 545px;
+  }
+
+  main .contact-section .contact .contact-form button {
+    margin-left: -77%;
+  }
+
+  footer .email-footer {
+    display: none;
+  }
 }
