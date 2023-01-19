@@ -508,6 +508,8 @@ footer .email-footer h3 a {
     color: #172b4d;
     font-size: 28px;
     margin: 15px 8px;
+    padding: 10px;
+    border-radius: 100%;
     transition: all 0.3s ease-in;
   }
 
