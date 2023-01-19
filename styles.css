@@ -383,10 +383,6 @@ main .contact-section .contact .contact-form {
   gap: 20px;
 }
 
-main .contact-section .contact .contact-form #last-name {
-  display: none;
-}
-
 main .contact-section .contact .contact-form input,
 main .contact-section .contact .contact-form textarea {
   border: 1px solid #d0d9d4;
@@ -562,11 +558,11 @@ footer .email-footer h3 a {
   .about-section {
     padding: 10px 20%;
     background-image:
-      url("img/About-bg-2.png"),
-      url("img/about-bg-1.png");
+      url('img/About-bg-2.png'),
+      url('img/about-bg-1.png');
     background-repeat: no-repeat, no-repeat;
     background-position: top right, bottom left;
-    background-size: 200px 100px;
+    background-size: 200px 150px, 200px 100px;
     margin: 20px 0;
   }
 
@@ -622,24 +618,11 @@ footer .email-footer h3 a {
     gap: 20px;
   }
 
-  main .contact-section .contact .contact-form #last-name {
-    display: block;
-  }
-
-  main .contact-section .contact .contact-form .names {
-    display: flex;
-    gap: 20px;
-  }
-
   main .contact-section .contact .contact-form input {
     height: 20px;
   }
 
-  main .contact-section .contact .contact-form .names input {
-    width: 250px;
-  }
-
-  main .contact-section .contact .contact-form #email,
+  main .contact-section .contact .contact-form input,
   main .contact-section .contact .contact-form #textarea {
     width: 545px;
   }
