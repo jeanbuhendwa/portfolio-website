@@ -508,6 +508,12 @@ footer .email-footer h3 a {
     color: #172b4d;
     font-size: 28px;
     margin: 15px 8px;
+    transition: all 0.3s ease-in;
+  }
+
+  main .headline-section .social-media i:hover {
+    color: #fff;
+    background: #172b4d;
   }
 
   /* Scroll to the next section button */
