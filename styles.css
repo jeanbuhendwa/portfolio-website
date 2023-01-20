@@ -437,8 +437,42 @@ footer .email-footer h3 a {
   color: #42526e;
 }
 
-/* The block below is for desktop version */
+/* The block below is for tablet version */
 @media screen and (min-width: 768px) {
+  /* The section below styles the header (logo and menu) */
+  header #navigation {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  header #navigation #logo,
+  header #navigation #menu {
+    display: block;
+    margin-left: 60px;
+  }
+
+  header #navigation #menu {
+    display: none;
+  }
+
+  header #navigation #nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 70px;
+    gap: 20px;
+  }
+
+  header #navigation #nav-list li a {
+    text-decoration: none;
+    color: #28352f;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+/* The block below is for desktop version */
+@media screen and (min-width: 992px) {
   /* The section below styles the header (logo and menu) */
   header #navigation {
     position: relative;
