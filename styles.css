@@ -469,6 +469,54 @@ footer .email-footer h3 a {
     font-size: 20px;
     line-height: 32px;
   }
+
+  /* The section below styles the headline section */
+  main .headline-section {
+    background-image: url("img/desktop-bg.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20%;
+    margin-top: -80px;
+  }
+
+  main .headline-section h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #172b4d;
+  }
+
+  main .headline-section h1 span {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #36b37e;
+  }
+
+  main .headline-section p {
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 32px;
+    color: #172b4d;
+  }
+
+  main .headline-section .social-media i {
+    color: #172b4d;
+    font-size: 28px;
+    margin: 15px 8px;
+    padding: 10px;
+    border-radius: 100%;
+    transition: all 0.3s ease-in;
+  }
+
+  main .headline-section .social-media i:hover {
+    color: #fff;
+    background: #172b4d;
+  }
 }
 
 /* The block below is for desktop version */
