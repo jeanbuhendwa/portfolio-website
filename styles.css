@@ -153,7 +153,16 @@ main .button-section button:active {
 }
 
 /* The section below styles the project work section using css grid and flexbox */
-main .work-section h1 {
+.about-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 0;
+}
+
+main .work-section h2 {
   font-size: 50px;
   font-weight: 700;
   line-height: 52px;
@@ -197,23 +206,22 @@ main .work-section .project-container .work .project-info {
   padding: 16px;
 }
 
-.about-section h2 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  margin: 0;
-}
-
-.skills-section .skill-box h2 {
+.skills-section .skill-box h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #344563;
 }
 
-main .work-section .project-container .work .project-info h2 {
+main .contact-section .contact .text-contact h3 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+  text-align: center;
+}
+
+main .work-section .project-container .work .project-info h3 {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -369,14 +377,6 @@ main .contact-section .contact {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-main .contact-section .contact .text-contact h3 {
-  font-size: 40px;
-  line-height: 52px;
-  font-weight: 700;
-  color: #172b4d;
-  text-align: center;
 }
 
 main .contact-section .contact .contact-form {
