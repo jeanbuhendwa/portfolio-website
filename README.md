@@ -58,6 +58,8 @@
 
 - [Live Demo Link](https://jeanbuhendwa.github.io/portfolio-website/)
 
+- [Outline Video Link](https://www.loom.com/share/c6a6b8c8af0544e99de579068f796253)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
