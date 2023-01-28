@@ -182,8 +182,9 @@ main .work-section #hr-line {
 
 main .work-section .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px;
+  margin: 5px 15px;
 }
 
 main .work-section .project-container .work {
@@ -247,6 +248,7 @@ main .work-section .project-container .work .project-info ul {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
   padding: 8px 12px;
   margin: 0;
 }
@@ -340,8 +342,9 @@ main .work-section .project-container .work .project-info button:active {
 
 .skills-section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px;
+  margin: 5px 15px;
 }
 
 .skills-section .skill-box {
@@ -390,6 +393,7 @@ main .contact-section .contact .contact-form {
 main .contact-section .contact .contact-form input,
 main .contact-section .contact .contact-form textarea {
   border: 1px solid #d0d9d4;
+  font-family: "Inter", sans-serif;
   border-radius: 4px;
   padding: 10px 12px;
   width: 330px;
@@ -662,7 +666,7 @@ footer .email-footer h3 a {
 
   .skills-section {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
     margin: 0 100px;
   }
