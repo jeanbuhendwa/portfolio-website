@@ -92,7 +92,7 @@ header #navigation .nav-list .nav-close {
 }
 
 header #navigation .nav-list.active {
-  height: 50vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -100,7 +100,7 @@ header #navigation .nav-list.active {
   padding: 100px 30px;
   list-style: none;
   border-radius: 0 0 50px 50px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 /* The section below styles the headline section */
