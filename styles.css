@@ -8,10 +8,16 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* The section below styles the header (logo and menu) */
-header #navigation {
+
+/* header #navigation {
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -38,6 +44,93 @@ header #navigation #menu {
 
 header #navigation #nav-list {
   display: none;
+} */
+
+header #navigation {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  padding: 20px 24px;
+  margin: 0;
+}
+
+header #navigation .nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+header #navigation .nav-header #logo {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #28352f;
+}
+
+header #navigation .nav-header .nav-toggle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #28352f;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+header #navigation .nav-list {
+  height: 0;
+  background: #fff;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: all 1s ease-in-out;
+  display: none;
+}
+
+footer .email-footer h3 a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #42526e;
+}
+
+header #navigation .nav-list .nav-link a {
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #3a4a42;
+}
+
+header #navigation .nav-list .nav-close {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #67798e;
+  cursor: pointer;
+}
+
+header #navigation .nav-list.active {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 100px 30px;
+  list-style: none;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* The section below styles the headline section */
@@ -437,100 +530,11 @@ footer .footer-social .social-media i {
   margin: 15px 8px;
 }
 
-footer .email-footer h3 a {
-  text-decoration: none;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #42526e;
-}
-
-/* The block below is for tablet version */
+/* The block below is for desktop version */
 @media screen and (min-width: 768px) {
   /* The section below styles the header (logo and menu) */
-  header #navigation {
-    justify-content: space-between;
-    padding: 0;
-  }
 
-  header #navigation #logo,
-  header #navigation #menu {
-    display: block;
-    margin-left: 60px;
-  }
-
-  header #navigation #menu {
-    display: none;
-  }
-
-  header #navigation #nav-list {
-    list-style: none;
-    display: flex;
-    margin-right: 70px;
-    gap: 20px;
-  }
-
-  header #navigation #nav-list li a {
-    text-decoration: none;
-    color: #28352f;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-  }
-
-  /* The section below styles the headline section */
-  main .headline-section {
-    background-image: url("img/desktop-bg.png");
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20%;
-    margin-top: -80px;
-  }
-
-  main .headline-section h1 {
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 60px;
-    letter-spacing: 0.37px;
-    color: #172b4d;
-  }
-
-  main .headline-section h1 span {
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 60px;
-    color: #36b37e;
-  }
-
-  main .headline-section p {
-    font-size: 20px;
-    font-weight: 500px;
-    line-height: 32px;
-    color: #172b4d;
-  }
-
-  main .headline-section .social-media i {
-    color: #172b4d;
-    font-size: 28px;
-    margin: 15px 8px;
-    padding: 10px;
-    border-radius: 100%;
-    transition: all 0.3s ease-in;
-  }
-
-  main .headline-section .social-media i:hover {
-    color: #fff;
-    background: #172b4d;
-  }
-}
-
-/* The block below is for desktop version */
-@media screen and (min-width: 992px) {
-  /* The section below styles the header (logo and menu) */
-  header #navigation {
+  /* header #navigation {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -558,6 +562,39 @@ footer .email-footer h3 a {
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
+  } */
+
+  header #navigation {
+    flex-direction: row;
+    justify-content: center;
+    background: none;
+    position: fixed;
+  }
+
+  header #navigation .nav-header {
+    display: none;
+  }
+
+  header #navigation .nav-list {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    padding: 35px 18px;
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  header #navigation .nav-list .nav-link a {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #3a4a42;
+  }
+
+  header #navigation .nav-list .nav-close {
+    display: none;
   }
 
   /* The section below styles the headline section */
@@ -568,7 +605,7 @@ footer .email-footer h3 a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 20%;
+    padding: 80px 20%;
     margin-top: -80px;
   }
 
@@ -655,9 +692,7 @@ footer .email-footer h3 a {
   /* The block below styles the about me section and the skills */
   .about-section {
     padding: 10px 20%;
-    background-image:
-      url('img/about-bg-2.png'),
-      url('img/about-bg-left.png');
+    background-image: url("img/about-bg-2.png"), url("img/about-bg-left.png");
     background-repeat: no-repeat, no-repeat;
     background-position: top right, bottom left;
     background-size: 200px 150px, 200px 100px;
