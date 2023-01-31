@@ -70,7 +70,12 @@ footer .email-footer h3 a {
   color: #42526e;
 }
 
-/* Nav links styles here */
+header #navigation .nav-list .nav-link a {
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #3a4a42;
+}
 
 header #navigation .nav-list .nav-close {
   display: block;
