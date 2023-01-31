@@ -16,12 +16,17 @@
   <body>
     <header>
       <nav id="navigation">
-        <a href="#" id="logo">Welcome</a>
-        <i id="menu" class="fa fa-bars"></i>
-        <ul id="nav-list">
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <div class="nav-header">
+          <a href="#" id="logo">Welcome</a>
+          <button class="nav-toggle" id="nav-toggle">
+            <i id="menu" class="fa fa-bars"></i>
+          </button>
+        </div>
+        <ul class="nav-list" id="nav-list">
+          <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+          <button class="nav-close" id="nav-close"><i id="closeMenu" class="fa fa-times"></i></button>
         </ul>
       </nav>
     </header>
@@ -253,5 +258,7 @@
         </h3>
       </div>
     </footer>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
