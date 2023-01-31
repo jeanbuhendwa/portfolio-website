@@ -16,36 +16,6 @@ a {
 }
 
 /* The section below styles the header (logo and menu) */
-
-/* header #navigation {
-  position: fixed;
-  overflow: hidden;
-  width: 100%;
-  height: 60px;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 20px;
-}
-
-header #navigation #logo,
-header #navigation #menu {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28px;
-  text-decoration: none;
-  color: #28352f;
-}
-
-header #navigation #menu {
-  margin-right: 60px;
-}
-
-header #navigation #nav-list {
-  display: none;
-} */
-
 header #navigation {
   display: flex;
   flex-direction: column;
@@ -100,12 +70,7 @@ footer .email-footer h3 a {
   color: #42526e;
 }
 
-header #navigation .nav-list .nav-link a {
-  font-size: 28px;
-  line-height: 44px;
-  font-weight: 600;
-  color: #3a4a42;
-}
+/* Nav links styles here */
 
 header #navigation .nav-list .nav-close {
   display: block;
@@ -533,37 +498,6 @@ footer .footer-social .social-media i {
 /* The block below is for desktop version */
 @media screen and (min-width: 768px) {
   /* The section below styles the header (logo and menu) */
-
-  /* header #navigation {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0);
-    justify-content: center;
-    padding: 0;
-  }
-
-  header #navigation #logo,
-  header #navigation #menu {
-    display: none;
-  }
-
-  header #navigation #nav-list {
-    list-style: none;
-    display: flex;
-    margin-right: 70px;
-    gap: 20px;
-  }
-
-  header #navigation #nav-list li a {
-    text-decoration: none;
-    color: #28352f;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-  } */
-
   header #navigation {
     flex-direction: row;
     justify-content: center;
@@ -586,12 +520,7 @@ footer .footer-social .social-media i {
     background: rgba(255, 255, 255, 0.9);
   }
 
-  header #navigation .nav-list .nav-link a {
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #3a4a42;
-  }
+  /* Nav links styles here */
 
   header #navigation .nav-list .nav-close {
     display: none;
