@@ -525,7 +525,12 @@ footer .footer-social .social-media i {
     background: rgba(255, 255, 255, 0.9);
   }
 
-  /* Nav links styles here */
+ header #navigation .nav-list .nav-link a {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #3a4a42;
+  }
 
   header #navigation .nav-list .nav-close {
     display: none;
