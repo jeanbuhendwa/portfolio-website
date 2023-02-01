@@ -1,0 +1,134 @@
+const projects = [
+    {
+        projectId : 1,
+        projectName : 'Keeping track of hundreds of components',
+        projectDescription : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+        imageDesktop : 'img/projects/projectone-img.png',
+        gitIcon : 'img/icons/git-icon.svg',
+        liveIcon : 'img/icons/liveIcon.svg',
+        techMobile : ['Ruby on rails', 'css', 'JavScript'],
+        techDesktop : ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'], 
+        sourceLink : 'https://github.com/jeanbuhendwa/portfolio-website',
+        liveLink : 'https://jeanbuhendwa.github.io/portfolio-website/',
+    },
+
+    {
+        projectId : 2,
+        projectName : 'Keeping track of hundreds of components',
+        projectDescription : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+        imageDesktop : 'img/projects/projectone-img.png',
+        gitIcon : 'img/icons/git-icon.svg',
+        liveIcon : 'img/icons/liveIcon.svg',
+        techMobile : ['Ruby on rails', 'css', 'JavScript'],
+        techDesktop : ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'], 
+        sourceLink : 'https://github.com/jeanbuhendwa/portfolio-website',
+        liveLink : 'https://jeanbuhendwa.github.io/portfolio-website/',
+    },
+
+    {
+        projectId : 3,
+        projectName : 'Keeping track of hundreds of components',
+        projectDescription : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+        imageDesktop : 'img/projects/projectone-img.png',
+        gitIcon : 'img/icons/git-icon.svg',
+        liveIcon : 'img/icons/liveIcon.svg',
+        techMobile : ['Ruby on rails', 'css', 'JavScript'],
+        techDesktop : ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'], 
+        sourceLink : 'https://github.com/jeanbuhendwa/portfolio-website',
+        liveLink : 'https://jeanbuhendwa.github.io/portfolio-website/',
+    },
+
+    {
+        projectId : 4,
+        projectName : 'Keeping track of hundreds of components',
+        projectDescription : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+        imageDesktop : 'img/projects/projectone-img.png',
+        gitIcon : 'img/icons/git-icon.svg',
+        liveIcon : 'img/icons/liveIcon.svg',
+        techMobile : ['Ruby on rails', 'css', 'JavScript'],
+        techDesktop : ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'], 
+        sourceLink : 'https://github.com/jeanbuhendwa/portfolio-website',
+        liveLink : 'https://jeanbuhendwa.github.io/portfolio-website/',
+    },
+
+    {
+        projectId : 5,
+        projectName : 'Keeping track of hundreds of components',
+        projectDescription : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+        imageDesktop : 'img/projects/projectone-img.png',
+        gitIcon : 'img/icons/git-icon.svg',
+        liveIcon : 'img/icons/liveIcon.svg',
+        techMobile : ['Ruby on rails', 'css', 'JavScript'],
+        techDesktop : ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'], 
+        sourceLink : 'https://github.com/jeanbuhendwa/portfolio-website',
+        liveLink : 'https://jeanbuhendwa.github.io/portfolio-website/',
+    },
+
+    {
+        projectId : 6,
+        projectName : 'Keeping track of hundreds of components',
+        projectDescription : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+        imageDesktop : 'img/projects/projectone-img.png',
+        gitIcon : 'img/icons/git-icon.svg',
+        liveIcon : 'img/icons/liveIcon.svg',
+        techMobile : ['Ruby on rails', 'css', 'JavScript'],
+        techDesktop : ['Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'], 
+        sourceLink : 'https://github.com/jeanbuhendwa/portfolio-website',
+        liveLink : 'https://jeanbuhendwa.github.io/portfolio-website/',
+    }
+];
+
+const popModal = document.getElementById('popUp-modal');
+
+const closeModal = () => {
+    popModal.style.display = 'none';
+}
+
+window.onclick = function modal(event){
+    if(event.target === popModal){
+        popModal.style.display ='none';
+    }
+};
+
+function projectDetails(data){
+    const myProject = projects[data];
+    popModal.innerHTML = `<div class="content-modal">
+    <div class="modal-header">
+        <div class="modal-bg-img">
+            <span onclick="closeModal()" id="close-btn" class="close-btn"><i class="fa fa-times"></i></span>
+            <img class="desktop-img" src="${myProject.imageDesktop}"/>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="title-container">
+            <h3 id="title">${myProject.projectName}</h3>
+        </div>
+        <ul class="tech-tags" id="tech-desktop">
+            ${myProject.techDesktop.map((tech)=> `<li>${tech}</li>`)}
+        </ul>
+        <ul class="tech-tags" id="tech-mobile">
+            <li>${myProject.techMobile[0]}</li>
+            <li>${myProject.techMobile[1]}</li>
+            <li>${myProject.techMobile[2]}</li>
+        </ul>
+        <p id="projectDescription">${myProject.projectDescription}</p>
+        <div class="modal-footer">
+            <a href="${myProject.liveLink}" class="btn-links">
+                <button type="submit" class="show-project-btn">
+                    <span>See Live</span>
+                    <img src="${myProject.liveIcon}" alt="See live icon" />
+                </button>
+            </a>
+            <a href="${myProject.sourceLink}" class="btn-links">
+                <button type="submit" class="show-project-btn">
+                    <span>See Source</span>
+                    <img src="${myProject.gitIcon}" alt="source code icon" /> 
+                </button>
+            </a>
+        </div>
+    </div>
+    </div>
+    `;
+
+popModal.style.display = 'block';
+}
