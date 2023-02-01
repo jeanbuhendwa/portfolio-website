@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+#popUp-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #c1c7d0b0;
+  box-sizing: border-box;
+}
+
+.content-modal {
+  margin: 5px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #ebecf0;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.close-btn {
+  float: right;
+  color: rgb(80, 77, 77);
+  font-size: 32px;
+  cursor: pointer;
+  position: absolute;
+  top: 45px;
+  right: 60px;
+}
+
+.desktop-img {
+  width: 100%;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.title-container #title {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #172b4d;
+}
+
+#tech-desktop {
+    display: none;
+}
+
+#tech-mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+#tech-mobile li {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #3A4A42;
+    background: #EBF0EE;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+#projectDescription {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #344563;
+    text-align: justify;
+}
+
+.modal-footer {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modal-footer .show-project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #36B37F;
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    width: 153px;
+    height: 48px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
