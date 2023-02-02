@@ -15,7 +15,11 @@ a {
   text-decoration: none;
 }
 
-/* The section below styles the header (logo and menu) */
+#error {
+  color: rgba(224, 25, 25);
+  margin: 0;
+}
+
 header #navigation {
   display: flex;
   flex-direction: column;
