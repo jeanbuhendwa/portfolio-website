@@ -90,4 +90,52 @@ window.onclick = function modal(event) {
   }
 };
 
-// Fucntion to create the template here
+function projectDetails(data) {
+  const myProject = projects[data];
+  popModal.innerHTML = `<div class="content-modal">
+    <div class="modal-header">
+        <div class="modal-bg-img">
+            <span onclick="closeModal()" id="close-btn" class="close-btn">&times;</span>
+            <img class="desktop-img" src="${myProject.imageDesktop}"/>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="title-container">
+            <h3 id="title">${myProject.projectName}</h3>
+        </div>
+        <ul class="tech-tags" id="tech-desktop">
+            <li>${myProject.techDesktop[0]}</li>
+            <li>${myProject.techDesktop[1]}</li>
+            <li>${myProject.techDesktop[2]}</li>
+            <li>${myProject.techDesktop[3]}</li>
+            <li>${myProject.techDesktop[4]}</li>
+            <li>${myProject.techDesktop[5]}</li>
+        </ul>
+        <ul class="tech-tags" id="tech-mobile">
+            <li>${myProject.techMobile[0]}</li>
+            <li>${myProject.techMobile[1]}</li>
+            <li>${myProject.techMobile[2]}</li>
+        </ul>
+        <p id="projectDescription">${myProject.projectDescription}</p>
+        <div class="modal-footer">
+            <a href="${myProject.liveLink}" class="btn-links" target="_blank">
+                <button type="submit" class="show-project-btn">
+                    <span>See Live</span>
+                    <img src="${myProject.liveIcon}" alt="See live icon" />
+                </button>
+            </a>
+            <a href="${myProject.sourceLink}" class="btn-links" target="_blank">
+                <button type="submit" class="show-project-btn">
+                    <span>See Source</span>
+                    <img src="${myProject.gitIcon}" alt="source code icon" /> 
+                </button>
+            </a>
+        </div>
+    </div>
+    </div>
+    `;
+
+  popModal.style.display = 'block';
+}
+projectDetails(7);
+closeModal();
