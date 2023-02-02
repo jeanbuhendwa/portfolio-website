@@ -183,5 +183,28 @@
     text-align: justify;
   }
 
-  /* Modal footer codes here */
+  .modal-footer {
+    position: absolute;
+    bottom: -50px;
+    left: 21%;
+    gap: 12px;
+  }
+
+  .modal-footer .show-project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #36b37f;
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    width: 141px;
+    height: 48px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
 }
