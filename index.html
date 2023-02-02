@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="popUp-modal.css">
+    <link rel="stylesheet" href="popUp-modal.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -27,7 +27,9 @@
           <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
           <li class="nav-link"><a href="#about">About</a></li>
           <li class="nav-link"><a href="#contact">Contact</a></li>
-          <button class="nav-close" id="nav-close"><i id="closeMenu" class="fa fa-times"></i></button>
+          <button class="nav-close" id="nav-close">
+            <i id="closeMenu" class="fa fa-times"></i>
+          </button>
         </ul>
       </nav>
     </header>
@@ -44,26 +46,34 @@
         </p>
         <ul class="social-media">
           <li>
-            <a href="https://twitter.com/JeanjacqueI" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/JeanjacqueI" target="_blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/johnbuhendwa/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/johnbuhendwa/" target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
           </li>
           <li>
             <a href="#"><i class="fa fa-medium"></i></a>
           </li>
           <li>
-            <a href="https://github.com/jeanbuhendwa" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://github.com/jeanbuhendwa" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
           </li>
           <li>
             <a href="#"><i class="fa fa-angellist"></i></a>
           </li>
         </ul>
         <div class="button-section">
-          <button name="next section"><i class="fa fa-angle-down" id="next-section"></i></button>
+          <button name="next section">
+            <i class="fa fa-angle-down" id="next-section"></i>
+          </button>
         </div>
       </section>
-      
+
       <div id="popUp-modal"></div>
       <div id="work-section-container"></div>
 
@@ -123,14 +133,14 @@
               action="https://formspree.io/f/myyazwjk"
               method="POST"
               class="contact-form"
+              id="contact-form"
             >
               <input
                 type="text"
                 name="full-name"
-                id="name"
+                id="full-name"
                 placeholder="Full Name"
                 maxlength="30"
-                required
               />
 
               <input
@@ -139,8 +149,9 @@
                 id="email"
                 placeholder="Email Address"
                 maxlength="30"
-                required
               />
+              <span id="error"></span>
+
               <textarea
                 name="textarea"
                 id="textarea"
@@ -148,9 +159,15 @@
                 rows="5"
                 placeholder="Enter the Text Here"
                 maxlength="500"
-                required
               ></textarea>
-              <button type="submit" name="submit">Get in touch</button>
+
+              <button
+                type="submit"
+                name="submit"
+                id="submit-btn"
+              >
+                Get in touch
+              </button>
             </form>
           </div>
         </div>
@@ -160,16 +177,22 @@
       <div class="footer-social">
         <ul class="social-media">
           <li>
-            <a href="https://twitter.com/JeanjacqueI" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/JeanjacqueI" target="_blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/johnbuhendwa/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/johnbuhendwa/" target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
           </li>
           <li>
             <a href="#"><i class="fa fa-medium"></i></a>
           </li>
           <li>
-            <a href="https://github.com/jeanbuhendwa" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://github.com/jeanbuhendwa" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
           </li>
           <li>
             <a href="#"><i class="fa fa-angellist"></i></a>
@@ -187,5 +210,6 @@
 
     <script src="scripts.js"></script>
     <script src="popUp.js"></script>
+    <script src="validation.js"></script>
   </body>
 </html>
