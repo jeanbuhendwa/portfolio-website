@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="popUp-modal.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -62,7 +63,7 @@
           <button name="next section"><i class="fa fa-angle-down" id="next-section"></i></button>
         </div>
       </section>
-
+      <div id="popUp-modal"></div>
       <section class="work-section" id="portfolio">
         <h2>My Recent Works</h2>
         <div id="hr-line"></div>
@@ -76,7 +77,7 @@
                 <li>JavScript</li>
                 <li>html</li>
               </ul>
-              <button name="See Project">See Project</button>
+              <button onclick="projectDetails(0)" name="See Project">See Project</button>
             </div>
           </div>
           <div class="work">
@@ -88,7 +89,7 @@
                 <li>JavScript</li>
                 <li>html</li>
               </ul>
-              <button name="See Project">See Project</button>
+              <button onclick="projectDetails(1)" name="See Project">See Project</button>
             </div>
           </div>
           <div class="work">
@@ -100,7 +101,7 @@
                 <li>JavScript</li>
                 <li>html</li>
               </ul>
-              <button name="See Project">See Project</button>
+              <button onclick="projectDetails(2)" name="See Project">See Project</button>
             </div>
           </div>
           <div class="work">
@@ -112,7 +113,7 @@
                 <li>JavScript</li>
                 <li>html</li>
               </ul>
-              <button name="See Project">See Project</button>
+              <button onclick="projectDetails(3)" name="See Project">See Project</button>
             </div>
           </div>
           <div class="work">
@@ -124,7 +125,7 @@
                 <li>JavScript</li>
                 <li>html</li>
               </ul>
-              <button name="See Project">See Project</button>
+              <button onclick="projectDetails(4)" name="See Project">See Project</button>
             </div>
           </div>
           <div class="work">
@@ -136,7 +137,7 @@
                 <li>JavScript</li>
                 <li>html</li>
               </ul>
-              <button name="See Project">See Project</button>
+              <button onclick="projectDetails(5)" name="See Project">See Project</button>
             </div>
           </div>
         </div>
@@ -260,5 +261,6 @@
     </footer>
 
     <script src="scripts.js"></script>
+    <script src="popUp.js"></script>
   </body>
 </html>
