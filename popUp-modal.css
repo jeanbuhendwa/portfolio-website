@@ -3,6 +3,7 @@
 * {
   font-family: "Inter", sans-serif;
 }
+
 #popUp-modal {
   display: none;
   position: fixed;
@@ -24,7 +25,7 @@
   border-radius: 10px;
   padding: 20px;
   border: 1px solid #ebecf0;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
 .close-btn {
@@ -50,62 +51,160 @@
   line-height: 44px;
   font-weight: 600;
   color: #172b4d;
+  margin: 0;
 }
 
 #tech-desktop {
-    display: none;
+  display: none;
 }
 
 #tech-mobile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#tech-mobile li {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+#projectDescription {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  text-align: justify;
+}
+
+.modal-footer {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-footer .show-project-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: #36b37f;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+  width: 153px;
+  height: 48px;
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .content-modal {
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px;
+  }
+
+  .close-btn {
+    float: right;
+    color: #67798e;
+    cursor: pointer;
+    position: static;
+    font-weight: 400;
+    top: 0;
+    right: 0;
+    background: #ebecf0;
+    padding: 0 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+
+  .desktop-img {
+    width: 100%;
+    height: 550px;
+  }
+
+  .modal-body {
+    padding: 10px;
+  }
+
+  .title-container #title {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #172b4d;
+    width: 600px;
+    margin: 0;
+  }
+
+  #tech-desktop {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
     padding: 0;
     list-style: none;
-}
+  }
 
-#tech-mobile li {
+  #tech-desktop li {
     font-size: 12px;
     line-height: 16px;
     font-weight: 600;
-    color: #3A4A42;
-    background: #EBF0EE;
-    border-radius: 4px;
+    color: #344563;
+    background: #ebecf0;
+    border-radius: 8px;
     padding: 8px 12px;
-}
+  }
 
-#projectDescription {
+  #tech-mobile {
+    display: none;
+  }
+
+  #projectDescription {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
     font-weight: 400;
     color: #344563;
     text-align: justify;
-}
+  }
 
-.modal-footer {
-    padding: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
+  .modal-footer {
+    position: absolute;
+    bottom: -50px;
+    left: 21%;
+    gap: 12px;
+  }
 
-.modal-footer .show-project-btn {
+  .modal-footer .show-project-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    background: #36B37F;
+    background: #36b37f;
     border-radius: 5px;
     padding: 12px;
     border: none;
-    width: 153px;
+    width: 141px;
     height: 48px;
     color: #fff;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 20px;
     font-weight: 500;
     letter-spacing: 0.03em;
+  }
 }
