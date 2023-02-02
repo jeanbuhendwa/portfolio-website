@@ -86,12 +86,13 @@
 }
 
 .modal-footer {
-  padding: 0;
-  width: 100%;
+  padding: 5px;
+  color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .modal-footer .show-project-btn {
@@ -101,7 +102,7 @@
   gap: 5px;
   background: #36b37f;
   border-radius: 5px;
-  padding: 12px;
+  padding: 10px;
   border: none;
   width: 153px;
   height: 48px;
@@ -186,7 +187,7 @@
   .modal-footer {
     position: absolute;
     bottom: -50px;
-    left: 21%;
+    right: 15%;
     gap: 12px;
   }
 
