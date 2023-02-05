@@ -86,7 +86,7 @@ section.innerHTML += `<section class="work-section" id="portfolio">
 const projects = [
   {
     projectId: 1,
-    projectName: 'Keeping track of hundreds of components',
+    projectName: 'Bootstrap',
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageDesktop: 'img/projects/projectone-img.png',
@@ -97,7 +97,7 @@ const projects = [
       'Codekit',
       'GitHub',
       'Javasript',
-      'Bootstrap',
+      'css',
       'Terminal',
       'Codepen',
     ],
