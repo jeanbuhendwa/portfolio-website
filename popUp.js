@@ -6,11 +6,11 @@ section.innerHTML += `<section class="work-section" id="portfolio">
 <h2>My Recent Works</h2>
 <div id="hr-line"></div>
 <div class="project-container">
-  <div class="work">
+  <div class="work work1">
     <div class="project-info">
-      <h3>Multi-Post Stories Gain+Glory</h3>
+      <h3>JavaScript Camp</h3>
       <ul>
-        <li>Ruby on rails</li>
+      <li>Ruby on rails</li>
         <li>css</li>
         <li>JavScript</li>
         <li>html</li>
@@ -86,10 +86,10 @@ section.innerHTML += `<section class="work-section" id="portfolio">
 const projects = [
   {
     projectId: 1,
-    projectName: 'Bootstrap',
+    projectName: 'JavaScript Camp',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+      'The aim was to develop a website at the end of the module that will mainly use HTML, CSS and JavaScript as primary languages',
+    imageDesktop: 'img/projects/jscamp.png',
     gitIcon: 'img/icons/git-icon.svg',
     liveIcon: 'img/icons/liveIcon.svg',
     techMobile: ['Ruby on rails', 'css', 'JavScript'],
@@ -101,8 +101,8 @@ const projects = [
       'Terminal',
       'Codepen',
     ],
-    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
-    liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
+    sourceLink: 'https://github.com/jeanbuhendwa/capstone-project1',
+    liveLink: 'https://jeanbuhendwa.github.io/capstone-project1/',
   },
 
   {
