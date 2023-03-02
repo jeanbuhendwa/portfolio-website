@@ -250,6 +250,8 @@ main .work-section #hr-line {
 main .work-section .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  /* grid-template-rows: repeat(2, 450px); */
   gap: 10px;
   margin: 5px 15px;
 }
@@ -260,6 +262,13 @@ main .work-section .project-container .work {
   border-radius: 8px;
   background-color: #ebf0ee;
   margin: 10px;
+}
+
+.work1 {
+  background-image: url('./img/projects/jscamp.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
 }
 
 main .work-section .project-container .work .project-info {
