@@ -7,6 +7,9 @@ section.innerHTML += `<section class="work-section" id="portfolio">
 <div id="hr-line"></div>
 <div class="project-container">
   <div class="work work1">
+    <div class="project-img">
+        <img src="#" alt="Project Image">
+    </div>
     <div class="project-info">
       <h3>JavaScript Camp</h3>
       <ul>
@@ -19,6 +22,9 @@ section.innerHTML += `<section class="work-section" id="portfolio">
     </div>
   </div>
   <div class="work">
+    <div class="project-img">
+        <img src="#" alt="Project Image">
+    </div>
     <div class="project-info">
       <h3>Multi-Post Stories Gain+Glory</h3>
       <ul>
@@ -31,6 +37,9 @@ section.innerHTML += `<section class="work-section" id="portfolio">
     </div>
   </div>
   <div class="work">
+    <div class="project-img">
+        <img src="#" alt="Project Image">
+    </div>
     <div class="project-info">
       <h3>Multi-Post Stories Gain+Glory</h3>
       <ul>
@@ -43,6 +52,9 @@ section.innerHTML += `<section class="work-section" id="portfolio">
     </div>
   </div>
   <div class="work">
+    <div class="project-img">
+        <img src="#" alt="Project Image">
+    </div>
     <div class="project-info">
       <h3>Multi-Post Stories Gain+Glory</h3>
       <ul>
@@ -55,6 +67,9 @@ section.innerHTML += `<section class="work-section" id="portfolio">
     </div>
   </div>
   <div class="work">
+    <div class="project-img">
+        <img src="#" alt="Project Image">
+    </div>
     <div class="project-info">
       <h3>Multi-Post Stories Gain+Glory</h3>
       <ul>
@@ -67,6 +82,9 @@ section.innerHTML += `<section class="work-section" id="portfolio">
     </div>
   </div>
   <div class="work">
+    <div class="project-img">
+        <img src="#" alt="Project Image">
+    </div>
     <div class="project-info">
       <h3>Multi-Post Stories Gain+Glory</h3>
       <ul>
