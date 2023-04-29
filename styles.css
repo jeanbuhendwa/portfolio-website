@@ -441,6 +441,7 @@ main .work-section .project-container .work .project-info button:active {
   background-color: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
+
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -700,7 +701,9 @@ footer .footer-social .social-media i {
     grid-auto-rows: 350px;
     gap: 24px;
     padding: 0 120px;
+
     /* gap: 15px; */
+
     /* margin: 0 100px; */
   }
 
@@ -735,8 +738,6 @@ footer .footer-social .social-media i {
     grid-template-columns: 45% 55%;
     grid-gap: 20px;
   }
-
-
 
   main .contact-section .contact .contact-form {
     display: flex;
