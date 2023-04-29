@@ -429,8 +429,10 @@ main .work-section .project-container .work .project-info button:active {
 }
 
 .skills-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  display: flex;
+  flex-direction: column;
   gap: 10px;
   margin: 5px 15px;
 }
@@ -439,12 +441,16 @@ main .work-section .project-container .work .project-info button:active {
   background-color: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 32% 22% 43%;
+  place-items: center;
+  gap: 1%;
+  padding: 25px 15px;
   margin: 10px;
 }
 
@@ -687,21 +693,26 @@ footer .footer-social .social-media i {
   }
 
   .skills-section {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 15px;
-    margin: 0 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    gap: 24px;
+    padding: 0 120px;
+    /* gap: 15px; */
+    /* margin: 0 100px; */
   }
 
   .skills-section .skill-box {
-    background-color: #ebf0ee;
+    /* background-color: #ebf0ee;
     border: 1px solid #c1c7d0;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 10px; */
     padding: 0;
     margin: 0;
   }
