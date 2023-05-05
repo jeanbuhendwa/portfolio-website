@@ -289,6 +289,11 @@ main .work-section .project-container .work .project-img {
   height: 100px;
 }
 
+.skills-section .skill-box img {
+  width: 80px;
+  height: 80px;
+}
+
 main .work-section .project-container .work .project-img img {
   width: 100%;
   border-radius: 8px 8px 0 0;
@@ -470,11 +475,6 @@ main .work-section .project-container .work .project-info button:active {
 
 .skills-section .skill-box:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 24px rgba(0, 0, 0, 0.1);
-}
-
-.skills-section .skill-box img {
-  width: 80px;
-  height: 80px;
 }
 
 main .contact-section {
