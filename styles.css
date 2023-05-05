@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
 
+/* * {
+  outline: red dashed 1px;
+} */
+
 html {
   scroll-behavior: smooth;
 }
@@ -266,7 +270,7 @@ main .work-section .project-container .work {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 main .work-section .project-container .work:hover {
@@ -281,6 +285,18 @@ main .work-section .project-container .work:hover {
 } */
 main .work-section .project-container .work .project-img {
   flex: 1;
+  margin-bottom: -10px;
+  height: 100px;
+}
+
+.skills-section .skill-box img {
+  width: 80px;
+  height: 80px;
+}
+
+main .work-section .project-container .work .project-img img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
 }
 
 main .work-section .project-container .work .project-info {
@@ -293,6 +309,7 @@ main .work-section .project-container .work .project-info {
   align-items: center;
   gap: 10px;
   padding: 16px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2), 0 0 24px rgba(0, 0, 0, 0.1);
 }
 
 .skills-section .skill-box h3 {
@@ -453,11 +470,11 @@ main .work-section .project-container .work .project-info button:active {
   gap: 1%;
   padding: 25px 15px;
   margin: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
-.skills-section .skill-box img {
-  width: 80px;
-  height: 80px;
+.skills-section .skill-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 24px rgba(0, 0, 0, 0.1);
 }
 
 main .contact-section {

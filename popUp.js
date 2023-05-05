@@ -8,90 +8,86 @@ section.innerHTML += `<section class="work-section" id="portfolio">
 <div class="project-container">
   <div class="work work1">
     <div class="project-img">
-        <img src="#" alt="Project Image">
+      <img src="img/projects/jscamp.png" alt="Js Camp">
     </div>
     <div class="project-info">
       <h3>JavaScript Camp</h3>
       <ul>
-      <li>Ruby on rails</li>
-        <li>css</li>
-        <li>JavScript</li>
-        <li>html</li>
+      <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
       </ul>
       <button onclick="projectDetails(0)" name="See Project">See Project</button>
     </div>
   </div>
   <div class="work">
     <div class="project-img">
-        <img src="#" alt="Project Image">
+        <img src="img/projects/robot-friend.png" alt="Robot Friends">
     </div>
     <div class="project-info">
-      <h3>Multi-Post Stories Gain+Glory</h3>
+      <h3>Robot Friends App</h3>
       <ul>
-        <li>Ruby on rails</li>
-        <li>css</li>
-        <li>JavScript</li>
-        <li>html</li>
+        <li>React Js</li>
+        <li>CSS</li>
+        <li>Tachyons</li>
       </ul>
       <button onclick="projectDetails(1)" name="See Project">See Project</button>
     </div>
   </div>
   <div class="work">
     <div class="project-img">
-        <img src="#" alt="Project Image">
+        <img src="img/projects/math-magician.png" alt="Math Magician">
     </div>
     <div class="project-info">
-      <h3>Multi-Post Stories Gain+Glory</h3>
+      <h3>Math Magician App</h3>
       <ul>
-        <li>Ruby on rails</li>
-        <li>css</li>
-        <li>JavScript</li>
-        <li>html</li>
+        <li>React Js</li>
+        <li>CSS</li>
+        <li>React Router</li>
       </ul>
       <button onclick="projectDetails(2)" name="See Project">See Project</button>
     </div>
   </div>
   <div class="work">
     <div class="project-img">
-        <img src="#" alt="Project Image">
+        <img src="img/projects/space-travel.png" alt="Space Travellers">
     </div>
     <div class="project-info">
-      <h3>Multi-Post Stories Gain+Glory</h3>
+      <h3>Space Travellers' Hub</h3>
       <ul>
-        <li>Ruby on rails</li>
-        <li>css</li>
-        <li>JavScript</li>
-        <li>html</li>
+        <li>React Js</li>
+        <li>Redux</li>
+        <li>CSS</li>
       </ul>
       <button onclick="projectDetails(3)" name="See Project">See Project</button>
     </div>
   </div>
   <div class="work">
     <div class="project-img">
-        <img src="#" alt="Project Image">
+        <img src="img/projects/covid-app.png" alt="Covid App">
     </div>
     <div class="project-info">
-      <h3>Multi-Post Stories Gain+Glory</h3>
+      <h3>CoviStats App</h3>
       <ul>
-        <li>Ruby on rails</li>
-        <li>css</li>
-        <li>JavScript</li>
-        <li>html</li>
+        <li>React Js</li>
+        <li>Redux</li>
+        <li>CSS</li>
+        <li>API</li>
       </ul>
       <button onclick="projectDetails(4)" name="See Project">See Project</button>
     </div>
   </div>
   <div class="work">
     <div class="project-img">
-        <img src="#" alt="Project Image">
+        <img src="img/projects/meal-app.png" alt="Meal App">
     </div>
     <div class="project-info">
-      <h3>Multi-Post Stories Gain+Glory</h3>
+      <h3>The Meal App</h3>
       <ul>
-        <li>Ruby on rails</li>
-        <li>css</li>
-        <li>JavScript</li>
-        <li>html</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>WebPack</li>
       </ul>
       <button onclick="projectDetails(5)" name="See Project">See Project</button>
     </div>
