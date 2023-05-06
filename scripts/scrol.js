@@ -1,4 +1,4 @@
-var scrollTopButton = document.getElementById("scroll-to-top");
+const scrollTopButton = document.getElementById("scroll-to-top");
 
 window.onscroll = function () {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
