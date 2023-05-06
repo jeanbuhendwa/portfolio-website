@@ -365,8 +365,12 @@ main .work-section .project-container .work .project-info ul {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36b37e;
+  color: #278d63;
   padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 main .work-section .project-container .work .project-info ul li {
@@ -547,6 +551,17 @@ footer .footer-social .social-media i {
   color: #505f79;
   font-size: 24px;
   margin: 15px 8px;
+}
+
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 9999;
+  border: none;
+  background: none;
+  font-size: 25px;
 }
 
 /* The block below is for desktop version */
