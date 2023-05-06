@@ -553,6 +553,18 @@ footer .footer-social .social-media i {
   margin: 15px 8px;
 }
 
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 9999;
+  border: none;
+  background: none;
+  font-size: 25px;
+}
+
+
 /* The block below is for desktop version */
 @media screen and (min-width: 768px) {
   /* The section below styles the header (logo and menu) */
