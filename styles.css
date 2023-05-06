@@ -365,8 +365,12 @@ main .work-section .project-container .work .project-info ul {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36b37e;
+  color: #278d63;
   padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 main .work-section .project-container .work .project-info ul li {
