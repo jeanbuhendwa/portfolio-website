@@ -164,23 +164,23 @@ const projects = [
 
   {
     projectId: 4,
-    projectName: "Keeping track of hundreds of components",
+    projectName: "Space Travelers' Hub",
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: "img/projects/projectone-img.png",
+      "React Space Travellers' Hub retrieves data from that api and allow you to book a rocket and join a space mission",
+    imageDesktop: "img/projects/space-travel.png",
     gitIcon: "img/icons/git-icon.svg",
     liveIcon: "img/icons/liveIcon.svg",
-    techMobile: ["Ruby on rails", "css", "JavScript"],
+    techMobile: ["React js", "Redux", "JavScript"],
     techDesktop: [
-      "Codekit",
+      "React js",
       "GitHub",
       "Javasript",
-      "Bootstrap",
+      "Redux",
       "Terminal",
-      "Codepen",
+      "Bootstrap",
     ],
-    sourceLink: "https://github.com/jeanbuhendwa/portfolio-website",
-    liveLink: "https://jeanbuhendwa.github.io/portfolio-website/",
+    sourceLink: "https://github.com/jeanbuhendwa/space-traveller",
+    liveLink: "https://space-hub-traveller.netlify.app/",
   },
 
   {
