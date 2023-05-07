@@ -14,8 +14,8 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  /* background-color: #c1c7d0b0; */
-  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   box-sizing: border-box;
 }
 
@@ -128,17 +128,17 @@
     cursor: pointer;
     position: static;
     font-weight: 400;
+    font-size: 30px;
     top: 0;
     right: 0;
-    background: #ebecf0;
     padding: 0 8px;
     border-radius: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
 
   .desktop-img {
     width: 100%;
-    height: 550px;
+    height: 400px;
   }
 
   .modal-body {
@@ -150,7 +150,6 @@
     line-height: 44px;
     font-weight: 700;
     color: #172b4d;
-    width: 600px;
     margin: 0;
   }
 
@@ -185,13 +184,6 @@
     text-align: justify;
   }
 
-  .modal-footer {
-    position: absolute;
-    bottom: -50px;
-    right: 15%;
-    gap: 12px;
-  }
-
   .modal-footer .show-project-btn {
     display: flex;
     align-items: center;
@@ -208,5 +200,10 @@
     line-height: 20px;
     font-weight: 500;
     letter-spacing: 0.03em;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .modal-footer .show-project-btn:hover {
+    background: #247755;
   }
 }
