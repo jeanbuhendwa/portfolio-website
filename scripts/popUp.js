@@ -228,12 +228,14 @@ const projects = [
 const popModal = document.getElementById("popUp-modal");
 
 const closeModal = () => {
-  popModal.style.display = "none";
+  // popModal.style.display = "none";
+  popModal.classList.remove("active");
 };
 
 window.onclick = function modal(event) {
   if (event.target === popModal) {
-    popModal.style.display = "none";
+    // popModal.style.display = "none";
+    popModal.classList.remove("active");
   }
 };
 
@@ -282,7 +284,8 @@ function projectDetails(data) {
     </div>
     `;
 
-  popModal.style.display = "block";
+  // popModal.style.display = "block";
+  popModal.classList.add("active");
 }
 projectDetails(7);
 closeModal();
