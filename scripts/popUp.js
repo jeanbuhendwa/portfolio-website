@@ -1,5 +1,5 @@
-const workSection = document.getElementById("work-section-container");
-const section = document.createElement("section");
+const workSection = document.getElementById('work-section-container');
+const section = document.createElement('section');
 workSection.appendChild(section);
 
 section.innerHTML += `<section class="work-section" id="portfolio">
@@ -100,66 +100,66 @@ section.innerHTML += `<section class="work-section" id="portfolio">
 const projects = [
   {
     projectId: 1,
-    projectName: "JavaScript Camp",
+    projectName: 'JavaScript Camp',
     projectDescription:
-      "The aim was to develop a website at the end of the module that will mainly use HTML, CSS and JavaScript as primary languages",
-    imageDesktop: "img/projects/jscamp.png",
-    gitIcon: "img/icons/git-icon.svg",
-    liveIcon: "img/icons/liveIcon.svg",
-    techMobile: ["HTML", "CSS", "JavScript"],
+      'The aim was to develop a website at the end of the module that will mainly use HTML, CSS and JavaScript as primary languages',
+    imageDesktop: 'img/projects/jscamp.png',
+    gitIcon: 'img/icons/git-icon.svg',
+    liveIcon: 'img/icons/liveIcon.svg',
+    techMobile: ['HTML', 'CSS', 'JavScript'],
     techDesktop: [
-      "Codekit",
-      "GitHub",
-      "Javasript",
-      "CSS",
-      "HTML",
-      "Terminal",
-      "Codepen",
+      'Codekit',
+      'GitHub',
+      'Javasript',
+      'CSS',
+      'HTML',
+      'Terminal',
+      'Codepen',
     ],
-    sourceLink: "https://github.com/jeanbuhendwa/capstone-project1",
-    liveLink: "https://jeanbuhendwa.github.io/capstone-project1/",
+    sourceLink: 'https://github.com/jeanbuhendwa/capstone-project1',
+    liveLink: 'https://jeanbuhendwa.github.io/capstone-project1/',
   },
 
   {
     projectId: 2,
-    projectName: "Robot Friends",
+    projectName: 'Robot Friends',
     projectDescription:
-      "Robot Friends is an app built with react & react component. The app gives a friendly UI, easy to use and to look for a robot card.",
-    imageDesktop: "img/projects/robot-friend.png",
-    gitIcon: "img/icons/git-icon.svg",
-    liveIcon: "img/icons/liveIcon.svg",
-    techMobile: ["React js", "CSS", "Tachyons"],
+      'Robot Friends is an app built with react & react component. The app gives a friendly UI, easy to use and to look for a robot card.',
+    imageDesktop: 'img/projects/robot-friend.png',
+    gitIcon: 'img/icons/git-icon.svg',
+    liveIcon: 'img/icons/liveIcon.svg',
+    techMobile: ['React js', 'CSS', 'Tachyons'],
     techDesktop: [
-      "React js",
-      "GitHub",
-      "Javasript",
-      "Tachyons",
-      "Terminal",
-      "Gitflow",
+      'React js',
+      'GitHub',
+      'Javasript',
+      'Tachyons',
+      'Terminal',
+      'Gitflow',
     ],
-    sourceLink: "https://github.com/jeanbuhendwa/robot-friends",
-    liveLink: "https://jeanbuhendwa.github.io/robot-friends/",
+    sourceLink: 'https://github.com/jeanbuhendwa/robot-friends',
+    liveLink: 'https://jeanbuhendwa.github.io/robot-friends/',
   },
 
   {
     projectId: 3,
-    projectName: "Math Magician",
+    projectName: 'Math Magician',
     projectDescription:
-      "Math Magician is an online calculator app designed to help users solve a variety of math problems quickly and easily. In addition, the app includes random motivational quotes to help users stay inspired and motivated while working on challenging math problems.",
-    imageDesktop: "img/projects/math-magician.png",
-    gitIcon: "img/icons/git-icon.svg",
-    liveIcon: "img/icons/liveIcon.svg",
-    techMobile: ["React js", "CSS", "JavScript"],
+      'Math Magician is an online calculator app designed to help users solve a variety of math problems quickly and easily. In addition, the app includes random motivational quotes to help users stay inspired and motivated while working on challenging math problems.',
+    imageDesktop: 'img/projects/math-magician.png',
+    gitIcon: 'img/icons/git-icon.svg',
+    liveIcon: 'img/icons/liveIcon.svg',
+    techMobile: ['React js', 'CSS', 'JavScript'],
     techDesktop: [
-      "React js",
-      "GitHub",
-      "Javasript",
-      "Bootstrap",
-      "React Router",
-      "Jest",
+      'React js',
+      'GitHub',
+      'Javasript',
+      'Bootstrap',
+      'React Router',
+      'Jest',
     ],
-    sourceLink: "https://github.com/jeanbuhendwa/math-magician",
-    liveLink: "https://math-magician-550k.onrender.com/",
+    sourceLink: 'https://github.com/jeanbuhendwa/math-magician',
+    liveLink: 'https://math-magician-550k.onrender.com/',
   },
 
   {
@@ -167,76 +167,76 @@ const projects = [
     projectName: "Space Travelers' Hub",
     projectDescription:
       "React Space Travellers' Hub retrieves data from that api and allow you to book a rocket and join a space mission",
-    imageDesktop: "img/projects/space-travel.png",
-    gitIcon: "img/icons/git-icon.svg",
-    liveIcon: "img/icons/liveIcon.svg",
-    techMobile: ["React js", "Redux", "JavScript"],
+    imageDesktop: 'img/projects/space-travel.png',
+    gitIcon: 'img/icons/git-icon.svg',
+    liveIcon: 'img/icons/liveIcon.svg',
+    techMobile: ['React js', 'Redux', 'JavScript'],
     techDesktop: [
-      "React js",
-      "GitHub",
-      "Javasript",
-      "Redux",
-      "Terminal",
-      "Bootstrap",
+      'React js',
+      'GitHub',
+      'Javasript',
+      'Redux',
+      'Terminal',
+      'Bootstrap',
     ],
-    sourceLink: "https://github.com/jeanbuhendwa/space-traveller",
-    liveLink: "https://space-hub-traveller.netlify.app/",
+    sourceLink: 'https://github.com/jeanbuhendwa/space-traveller',
+    liveLink: 'https://space-hub-traveller.netlify.app/',
   },
 
   {
     projectId: 5,
-    projectName: "Keeping track of hundreds of components",
+    projectName: 'Keeping track of hundreds of components',
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: "img/projects/projectone-img.png",
-    gitIcon: "img/icons/git-icon.svg",
-    liveIcon: "img/icons/liveIcon.svg",
-    techMobile: ["Ruby on rails", "css", "JavScript"],
+    imageDesktop: 'img/projects/projectone-img.png',
+    gitIcon: 'img/icons/git-icon.svg',
+    liveIcon: 'img/icons/liveIcon.svg',
+    techMobile: ['Ruby on rails', 'css', 'JavScript'],
     techDesktop: [
-      "Codekit",
-      "GitHub",
-      "Javasript",
-      "Bootstrap",
-      "Terminal",
-      "Codepen",
+      'Codekit',
+      'GitHub',
+      'Javasript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
     ],
-    sourceLink: "https://github.com/jeanbuhendwa/portfolio-website",
-    liveLink: "https://jeanbuhendwa.github.io/portfolio-website/",
+    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
+    liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
   },
 
   {
     projectId: 6,
-    projectName: "Keeping track of hundreds of components",
+    projectName: 'Keeping track of hundreds of components',
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: "img/projects/projectone-img.png",
-    gitIcon: "img/icons/git-icon.svg",
-    liveIcon: "img/icons/liveIcon.svg",
-    techMobile: ["Ruby on rails", "css", "JavScript"],
+    imageDesktop: 'img/projects/projectone-img.png',
+    gitIcon: 'img/icons/git-icon.svg',
+    liveIcon: 'img/icons/liveIcon.svg',
+    techMobile: ['Ruby on rails', 'css', 'JavScript'],
     techDesktop: [
-      "Codekit",
-      "GitHub",
-      "Javasript",
-      "Bootstrap",
-      "Terminal",
-      "Codepen",
+      'Codekit',
+      'GitHub',
+      'Javasript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
     ],
-    sourceLink: "https://github.com/jeanbuhendwa/portfolio-website",
-    liveLink: "https://jeanbuhendwa.github.io/portfolio-website/",
+    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
+    liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
   },
 ];
 
-const popModal = document.getElementById("popUp-modal");
+const popModal = document.getElementById('popUp-modal');
 
 const closeModal = () => {
   // popModal.style.display = "none";
-  popModal.classList.remove("active");
+  popModal.classList.remove('active');
 };
 
 window.onclick = function modal(event) {
   if (event.target === popModal) {
     // popModal.style.display = "none";
-    popModal.classList.remove("active");
+    popModal.classList.remove('active');
   }
 };
 
@@ -286,7 +286,7 @@ function projectDetails(data) {
     `;
 
   // popModal.style.display = "block";
-  popModal.classList.add("active");
+  popModal.classList.add('active');
 }
 projectDetails(7);
 closeModal();
