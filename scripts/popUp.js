@@ -106,12 +106,13 @@ const projects = [
     imageDesktop: 'img/projects/jscamp.png',
     gitIcon: 'img/icons/git-icon.svg',
     liveIcon: 'img/icons/liveIcon.svg',
-    techMobile: ['Ruby on rails', 'css', 'JavScript'],
+    techMobile: ['HTML', 'CSS', 'JavScript'],
     techDesktop: [
       'Codekit',
       'GitHub',
       'Javasript',
-      'css',
+      'CSS',
+      'HTML',
       'Terminal',
       'Codepen',
     ],
@@ -121,65 +122,65 @@ const projects = [
 
   {
     projectId: 2,
-    projectName: 'Keeping track of hundreds of components',
+    projectName: 'Robot Friends',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+      'Robot Friends is an app built with react & react component. The app gives a friendly UI, easy to use and to look for a robot card.',
+    imageDesktop: 'img/projects/robot-friend.png',
     gitIcon: 'img/icons/git-icon.svg',
     liveIcon: 'img/icons/liveIcon.svg',
-    techMobile: ['Ruby on rails', 'css', 'JavScript'],
+    techMobile: ['React js', 'CSS', 'Tachyons'],
     techDesktop: [
-      'Codekit',
+      'React js',
       'GitHub',
       'Javasript',
-      'Bootstrap',
+      'Tachyons',
       'Terminal',
-      'Codepen',
+      'Gitflow',
     ],
-    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
-    liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
+    sourceLink: 'https://github.com/jeanbuhendwa/robot-friends',
+    liveLink: 'https://jeanbuhendwa.github.io/robot-friends/',
   },
 
   {
     projectId: 3,
-    projectName: 'Keeping track of hundreds of components',
+    projectName: 'Math Magician',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+      'Math Magician is an online calculator app designed to help users solve a variety of math problems quickly and easily. In addition, the app includes random motivational quotes to help users stay inspired and motivated while working on challenging math problems.',
+    imageDesktop: 'img/projects/math-magician.png',
     gitIcon: 'img/icons/git-icon.svg',
     liveIcon: 'img/icons/liveIcon.svg',
-    techMobile: ['Ruby on rails', 'css', 'JavScript'],
+    techMobile: ['React js', 'CSS', 'JavScript'],
     techDesktop: [
-      'Codekit',
+      'React js',
       'GitHub',
       'Javasript',
       'Bootstrap',
-      'Terminal',
-      'Codepen',
+      'React Router',
+      'Jest',
     ],
-    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
-    liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
+    sourceLink: 'https://github.com/jeanbuhendwa/math-magician',
+    liveLink: 'https://math-magician-550k.onrender.com/',
   },
 
   {
     projectId: 4,
-    projectName: 'Keeping track of hundreds of components',
+    projectName: "Space Travelers' Hub",
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+      "React Space Travellers' Hub retrieves data from that api and allow you to book a rocket and join a space mission",
+    imageDesktop: 'img/projects/space-travel.png',
     gitIcon: 'img/icons/git-icon.svg',
     liveIcon: 'img/icons/liveIcon.svg',
-    techMobile: ['Ruby on rails', 'css', 'JavScript'],
+    techMobile: ['React js', 'Redux', 'JavScript'],
     techDesktop: [
-      'Codekit',
+      'React js',
       'GitHub',
       'Javasript',
-      'Bootstrap',
+      'Redux',
       'Terminal',
-      'Codepen',
+      'Bootstrap',
     ],
-    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
-    liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
+    sourceLink: 'https://github.com/jeanbuhendwa/space-traveller',
+    liveLink: 'https://space-hub-traveller.netlify.app/',
   },
 
   {
@@ -228,12 +229,14 @@ const projects = [
 const popModal = document.getElementById('popUp-modal');
 
 const closeModal = () => {
-  popModal.style.display = 'none';
+  // popModal.style.display = "none";
+  popModal.classList.remove('active');
 };
 
 window.onclick = function modal(event) {
   if (event.target === popModal) {
-    popModal.style.display = 'none';
+    // popModal.style.display = "none";
+    popModal.classList.remove('active');
   }
 };
 
@@ -282,7 +285,8 @@ function projectDetails(data) {
     </div>
     `;
 
-  popModal.style.display = 'block';
+  // popModal.style.display = "block";
+  popModal.classList.add('active');
 }
 projectDetails(7);
 closeModal();

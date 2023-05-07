@@ -5,26 +5,35 @@
 }
 
 #popUp-modal {
-  display: none;
   position: fixed;
   z-index: 1000;
-  padding: 10px;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
   overflow: auto;
-  background-color: #c1c7d0b0;
-  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  transform: scale(1.2);
+  transition: opacity 0.2s 0s ease-in-out, transform 0.2s 0s ease-in-out;
+}
+
+#popUp-modal.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
 }
 
 .content-modal {
-  margin: 5px auto;
+  margin: 15px auto;
   width: 80%;
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  border: 1px solid #ebecf0;
+  border: 2px solid #ebecf0;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
@@ -116,9 +125,9 @@
 
 @media screen and (min-width: 768px) {
   .content-modal {
-    margin: 20px auto;
-    width: 70%;
-    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    padding: 5px;
   }
 
   .close-btn {
@@ -127,17 +136,17 @@
     cursor: pointer;
     position: static;
     font-weight: 400;
+    font-size: 30px;
     top: 0;
     right: 0;
-    background: #ebecf0;
     padding: 0 8px;
     border-radius: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
 
   .desktop-img {
     width: 100%;
-    height: 550px;
+    height: 350px;
   }
 
   .modal-body {
@@ -145,11 +154,10 @@
   }
 
   .title-container #title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 44px;
     font-weight: 700;
     color: #172b4d;
-    width: 600px;
     margin: 0;
   }
 
@@ -184,13 +192,6 @@
     text-align: justify;
   }
 
-  .modal-footer {
-    position: absolute;
-    bottom: -50px;
-    right: 15%;
-    gap: 12px;
-  }
-
   .modal-footer .show-project-btn {
     display: flex;
     align-items: center;
@@ -207,5 +208,10 @@
     line-height: 20px;
     font-weight: 500;
     letter-spacing: 0.03em;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .modal-footer .show-project-btn:hover {
+    background: #247755;
   }
 }
