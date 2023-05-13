@@ -256,8 +256,6 @@ main .work-section .project-container {
   flex-direction: column;
 
   /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
-  grid-template-rows: repeat(2, 450px);
   gap: 10px; */
   margin: 5px 15px;
 }
