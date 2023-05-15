@@ -185,44 +185,37 @@ const projects = [
 
   {
     projectId: 5,
-    projectName: 'Keeping track of hundreds of components',
+    projectName: 'CoviStats App',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+      'CovidApp is a capstone project built with react js & redux that provides information about corona virus in different countries.',
+    imageDesktop: 'img/projects/covid-app.png',
     gitIcon: 'img/icons/git-icon.svg',
     liveIcon: 'img/icons/liveIcon.svg',
-    techMobile: ['Ruby on rails', 'css', 'JavScript'],
+    techMobile: ['React js', 'css', 'JavScript'],
     techDesktop: [
-      'Codekit',
+      'React js',
       'GitHub',
       'Javasript',
       'Bootstrap',
       'Terminal',
-      'Codepen',
+      'Redux',
     ],
-    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
+    sourceLink: 'https://john-covidapp.netlify.app/',
     liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
   },
 
   {
     projectId: 6,
-    projectName: 'Keeping track of hundreds of components',
+    projectName: 'The Meal App',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+      'The Meal app that can Send and receive data from an API that give more information about the recipe',
+    imageDesktop: 'img/projects/meal-app.png',
     gitIcon: 'img/icons/git-icon.svg',
     liveIcon: 'img/icons/liveIcon.svg',
-    techMobile: ['Ruby on rails', 'css', 'JavScript'],
-    techDesktop: [
-      'Codekit',
-      'GitHub',
-      'Javasript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    sourceLink: 'https://github.com/jeanbuhendwa/portfolio-website',
-    liveLink: 'https://jeanbuhendwa.github.io/portfolio-website/',
+    techMobile: ['Html', 'css', 'JavScript'],
+    techDesktop: ['HTML', 'GitHub', 'Javasript', 'CSS', 'Terminal', 'Webpack'],
+    sourceLink: 'https://github.com/jeanbuhendwa/Meal-app',
+    liveLink: 'https://jeanbuhendwa.github.io/Meal-app/dist/',
   },
 ];
 
