@@ -272,12 +272,6 @@ main .work-section .project-container .work:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 24px rgba(0, 0, 0, 0.1);
 }
 
-/* .work1 {
-  background-image: url('./img/projects/jscamp.png');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 60%;
-} */
 main .work-section .project-container .work .project-img {
   flex: 1;
   margin-bottom: -10px;
