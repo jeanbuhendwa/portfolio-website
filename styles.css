@@ -254,9 +254,6 @@ main .work-section #hr-line {
 main .work-section .project-container {
   display: flex;
   flex-direction: column;
-
-  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 10px; */
   margin: 5px 15px;
 }
 
