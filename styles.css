@@ -449,11 +449,6 @@ main .work-section .project-container .work .project-info button:active {
   background-color: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 32% 22% 43%;
